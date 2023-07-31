@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: frontend-quality-dashboard-b528
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/multi-comp-e2e-tdve-tenant/mc-quality-dashboard/frontend-quality-dashboard-b528@sha256:5f917289b4e2c46a5b16fe9db725dc97adc613bb319ae897878808161728698b
+        name: container-image
+        resources: {}
+status: {}
